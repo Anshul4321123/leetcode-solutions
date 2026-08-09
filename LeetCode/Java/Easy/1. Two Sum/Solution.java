@@ -14,6 +14,6 @@ class Solution {
             numMap.put(nums[i], i);
         }
 
-        return new int[]{}; // Not reachable
+        return new int[]{};
     }
 }
