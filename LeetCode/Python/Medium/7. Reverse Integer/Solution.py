@@ -1,12 +1,19 @@
-class Solution:
+class Solution(object):
     def reverse(self, x):
-        res = 0
-        if x < 0:
-            res = int(str(x)[1:][::-1]) * -1
-        else:
-            res = int(str(x)[::-1])
-        
-        if res > 2 ** 31 - 1 or res < -2 ** 31:
+        """
+        :type x: int
+        :rtype: int
+        """
+        target=0
+        sign=1
+        if x<0:
+            sign=-1
+            x=-x
+        while x>0:
+            ld = x%10
+            target = (target*10) +ld 
+            x = x//10
+        if target<-2**31 or target>2**31-1:
             return 0
-        
-        return res
+        else:
+            return target*sign
