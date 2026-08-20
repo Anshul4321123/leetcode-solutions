@@ -70,7 +70,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Set Matrix Zeroes
 - [ ] Spiral Matrix
 - [ ] Rotate Image
-- [x] [Word Search](./Java/Medium/79. Word Search/)
+- [x] [Word Search](./Python/Medium/79. Word Search/)
 
 ### 📂 String
 - [x] [Longest Substring Without Repeating Characters](./C++/Medium/3. Longest Substring Without Repeating Characters/)
